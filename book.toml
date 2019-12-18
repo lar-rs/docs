@@ -1,0 +1,5 @@
+[book]
+authors = ["Sascha Smolkov"]
+multilingual = false
+src = "src"
+title = "Entwicklung Handbuch"

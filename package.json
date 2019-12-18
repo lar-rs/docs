@@ -1,0 +1,33 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "LAR OEE Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build .",
+    "dev": "vuepress dev",
+    "check-links": "vuepress check-md ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lar-rs/docs.git"
+  },
+  "keywords": [
+    "documentation",
+    "vuepress",
+    "lar-oee"
+  ],
+  "author": "smolkov",
+  "license": "MIT",
+  "dependencies": {
+    "mermaid": "^8.4.3",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "devDependencies": {
+    "vuepress-plugin-check-md": "^0.0.2",
+    "vuepress-plugin-element-tabs": "^0.1.8"
+  }
+}
